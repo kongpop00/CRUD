@@ -1,9 +1,9 @@
-import { useEffect, useState ,useContext, createContext} from 'react'
-import {Routes ,Route} from 'react-router-dom'
-import Home from './view/Home'
+import { useState } from 'react'
+import { Route, Routes } from 'react-router-dom'
 import Navbar from './componen/Navbar'
 import Add from './view/Add'
 import Edit from './view/Edit'
+import Home from './view/Home'
 
 
 function App () {
